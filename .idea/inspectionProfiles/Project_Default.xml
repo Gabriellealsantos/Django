@@ -1,0 +1,31 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyArgumentListInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyShadowingBuiltinsInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredNames">
+        <list>
+          <option value="str" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="int.*" />
+          <option value="range.__getitem__" />
+          <option value="list.union" />
+          <option value="object.resultado" />
+          <option value="object.__codigo" />
+          <option value="object.__nome" />
+          <option value="object.__preco" />
+          <option value="object.codigo" />
+          <option value="object.nome" />
+          <option value="object.*" />
+          <option value="str.__sub__" />
+          <option value="numpy.array.array" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
